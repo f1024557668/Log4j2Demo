@@ -1,0 +1,5 @@
+# Log4j2Demo
+Log4j2基础配置
+一个纯Java Project的项目只集成了Log4j2和fastjson的相关jar包，主要是实现指定类中的日志使用指定的日志输出appender输出到日志文件里，文本内容每一行都是
+一个json字符串，供后续业务操作解析日志文件然后将json数据同步到数据库中去。在本项目里，Test类调用了指定的appender进行日志文件的输出，而Hello类只是输出
+到Console里，不会输出到日志文件里。
